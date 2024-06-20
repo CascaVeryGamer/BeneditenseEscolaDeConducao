@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Barlow Condensed";
+    padding: 20px;
+    background: linear-gradient(#00BF63, yellowgreen, yellow);
+    height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #92e6a7, #fff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    text-shadow: 4px 3px 0px #000, 
+    9px 8px 0px 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    box-shadow: 0 5px 12px #2b9348;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #2b9348;
+    text-align: center;
+    color: white;
+}
+
+td {
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+    background-color: #dde5b6;
+}
+

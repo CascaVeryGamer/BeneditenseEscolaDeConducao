@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fefdf3;
+}
+
+.wrapper{
+    width: 420px;
+    background: #3B805A;
+    border: 2px solid #3B805A;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #3B805A;
+    color: #fff;
+    border-radius: 10px;
+    padding: 70px 40px;
+    margin-left: 100px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.wrapper.input-box1{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    margin-bottom: -50px;
+}
+
+.input-box1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.input-box1 input::placeholder{
+    color:#fff;
+}
+
+.input-box1 i{
+    position: absolute;
+    right: 5px;
+    top: 44%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 40px;
+    transition: 0.5s all;
+}
+
+.input-box input::placeholder{
+    color:#fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 5px;
+    top: 44%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.input-box:focus{
+    border-radius: 16px;
+  }
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background:#fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #3B805A;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
